@@ -252,6 +252,11 @@ string-dup:
   category: micro
   single_file: true
   ractor: true
+string-dup-chilled:
+  desc: duplicates chilled string literals (dupchilledstring, the default without a frozen_string_literal comment) in a loop to test inline string allocation performance
+  category: micro
+  single_file: true
+  ractor: true
 structaref:
   desc: structaref tests the performance of getting Struct members
   category: micro
