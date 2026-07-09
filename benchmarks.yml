@@ -247,6 +247,11 @@ str_concat:
   category: micro
   single_file: true
   ractor: true
+string-dup:
+  desc: duplicates mutable string literals (dupstring) in a loop to test inline string allocation performance
+  category: micro
+  single_file: true
+  ractor: true
 structaref:
   desc: structaref tests the performance of getting Struct members
   category: micro
